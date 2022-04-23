@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.ArrayList;
 public class Question5
 {
   public static void main(String[] args)
@@ -27,11 +27,31 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-
-    System.out.println("Enter an integer:");
-    int integerr=in.nextInt();
-    int answer=integerr*integerr;
-    System.out.println("Answer is "+answer);
+    System.out.println("Enter number of integers you are going to input: ");
+    int integer_count=in.nextInt();
+    ArrayList<Integer>intList=new ArrayList<>();
+    for (int i=0;
+    i<integer_count;
+    i++){
+      System.out.println("Enter integer "+(i+1));
+      int integerr=in.nextInt();
+      intList.add(integerr);
+    }
+    for (int i=0;
+    i<len(intList);
+    i++){
+      int temp_int=intList.get(i);
+      int count=0;
+      for(int x=0;
+      x<len(intList);
+      i++){
+        if (temp_int=intList.get(x)){
+          count+=1;
+        }
+      if 
+      
+      }
+    }
 
     
   }
